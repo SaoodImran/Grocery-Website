@@ -1,0 +1,87 @@
+.hpheader {
+	font-family: "courier";
+	text-align: center;
+	padding: 40px;
+	overflow: none;
+	background-color: #a9a9a9;
+}
+.title {
+	font-size: 40px;
+	font-weight: bold;
+}
+.pages {
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: #808080;
+	line-height: 40px;
+}
+a {
+	color: black;
+	font-size: 20px;
+	font-style: "arial";
+}
+.pageselection a:hover {
+	background-color: #a9a9a9;
+	padding: 10px;
+	color: black;
+}
+
+body{
+	height: 100%;
+	background-color: rgb(250,250,230);
+}
+
+.specialANN {
+  color: black;
+  font-size: 35px;
+  font-style: "arial";
+  text-align: center;
+}
+
+.imgContainer {
+	float: left;
+	width: 20%;
+  position: relative;
+  width: 50%;
+}
+
+.hpimage {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a9a9a9;
+}
+
+.imgContainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer {
+  float: right;
+  font-style: "arial";
+}
