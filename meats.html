@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="innerPage.css">
+
+<head>
+	<title>Local Grocer</title>
+
+	<div class="header">
+		<h1 class="webTitle">Local Online Grocer</h1>
+		<div class="links">
+			<a class="link1" href="homepage.html">Home Page</a>
+			<a class="link1" href="dairy.html">Dairy</a>
+			<a class="link1" href="fruits.html">Fruits</a>
+			<a class="link1" href="meats.html">Meats</a>
+			<a class="link1" href="checkoutpage.php">Cart</a>
+		</div>
+	</div>	
+</head>
+<body>
+	<br><br><br>
+
+	<table id = "table1" align="center">
+
+<!-----------------------------------------------row 1 of product--------------------------------------------------------------->
+		<tr>
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Chicken</p> <br>
+			 <center><img height = "80" width = "80" src="./images/chicken.png" alt="FRUIT"></center>
+			 <p align = "right">Price: 8.50/lb </p> <input type="hidden" name="item1" value = "Chicken"> <input type="hidden" name="price1" value = "8.50"> Quantity: <input type="number" name = "q" autocomplete="off" value="1" required><input type="hidden" name="url" value="meats.html"> <br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Pork</p> <br>
+			 <center><img height = "80" width = "80" src="./images/pork.png" alt="FRUIT"></center>
+			 <p align = "right">Price: 6.50/lb </p> <input type="hidden" name="item1" value = "Pork"> <input type="hidden" name="price1" value = "6.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required><input type="hidden" name="url" value="meats.html"> <br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Beef</p> <br>
+			 <center><img height = "80" width = "80" src="./images/beef.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 7.50/lb </p> <input type="hidden" name="item1" value = "Beef"> <input type="hidden" name="price1" value = "7.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Mutton</p> <br>
+			 <center><img height = "80" width = "80" src="./images/mutton.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 6.50/lb </p> <input type="hidden" name="item1" value = "Mutton"> <input type="hidden" name="price1" value = "6.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+			
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Turkey</p> <br>
+			 <center><img height = "80" width = "80" src="./images/turkey.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 6.50/lb </p> <input type="hidden" name="item1" value = "Turkey"> <input type="hidden" name="price1" value = "6.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+		</tr>
+
+
+		<tr id="splitRow">
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+		</tr>
+
+<!----------------------------------------------------row 2 of product---------------------------------------------------------->
+
+
+		<tr>
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Venison</p> <br>
+			 <center><img height = "80" width = "80" src="./images/venison.png" alt="FRUIT"></center>
+			 <p align = "right">Price: 9.50/lb </p> <input type="hidden" name="item1" value = "Venison"> <input type="hidden" name="price1" value = "9.50"> Quantity: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Duck</p> <br>
+			 <center><img height = "80" width = "80" src="./images/duck.png" alt="FRUIT"></center>
+			 <p align = "right">Price: 10.50/lb </p> <input type="hidden" name="item1" value = "Duck"> <input type="hidden" name="price1" value = "10.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Boar</p> <br>
+			 <center><img height = "80" width = "80" src="./images/boar.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 12.50/lb </p> <input type="hidden" name="item1" value = "Boar"> <input type="hidden" name="price1" value = "12.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Eggs</p> <br>
+			 <center><img height = "80" width = "80" src="./images/eggs.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 5.50/dozen </p> <input type="hidden" name="item1" value = "Eggs"> <input type="hidden" name="price1" value = "5.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required><input type="hidden" name="url" value="meats.html"> <br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+			
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Salmon</p> <br>
+			 <center><img height = "80" width = "80" src="./images/salmon.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 10.50/lb </p> <input type="hidden" name="item1" value = "Salmon"> <input type="hidden" name="price1" value = "10.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required><input type="hidden" name="url" value="meats.html"> <br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+		</tr>
+
+
+		<tr id="splitRow">
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+			<td id="space">&nbsp;</td>
+		</tr>
+<!-------------------------------------------row 3 of product------------------------------------------------------------------->
+		<tr>
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Trout</p> <br>
+			 <center><img height = "80" width = "80" src="./images/trout.png" alt="FRUIT"></center>
+			 <p align = "right">Price: 5.50/lb </p> <input type="hidden" name="item1" value = "Trout"> <input type="hidden" name="price1" value = "5.50"> Quantity: <input type="number" name = "q" autocomplete="off" value="1" required><input type="hidden" name="url" value="meats.html"> <br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Shrimp</p> <br>
+			 <center><img height = "80" width = "80" src="./images/shrimp.png" alt="FRUIT"></center>
+			 <p align = "right">Price: 22.50/lb </p> <input type="hidden" name="item1" value = "Shrimp"> <input type="hidden" name="price1" value = "22.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required><input type="hidden" name="url" value="meats.html"> <br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Lobster</p> <br>
+			 <center><img height = "80" width = "80" src="./images/lobster.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 20.50/lb </p> <input type="hidden" name="item1" value = "Lobster"> <input type="hidden" name="price1" value = "20.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Crawfish</p> <br>
+			 <center><img height = "80" width = "80" src="./images/crawfish.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 10.50/lb </p> <input type="hidden" name="item1" value = "Crawfish"> <input type="hidden" name="price1" value = "10.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+			
+		<form action="itemsbought.php" method="post">
+			<td> <p align="center">Squid</p> <br>
+			 <center><img height = "80" width = "80" src="./images/squid.png" alt="FRUIT"></center> 
+			 <p align = "right">Price: 10.50/lb </p> <input type="hidden" name="item1" value = "Squid"> <input type="hidden" name="price1" value = "10.50">
+			 Quantitiy: <input type="number" name = "q" autocomplete="off" value="1" required> <input type="hidden" name="url" value="meats.html"><br><br>
+			 <center><input type="submit" name="add to cart" value="Add To Cart!"></center></td>
+		</form>
+
+		</tr>
+
+
+</table>
+<br><br><br>
+<p id = "checkoutPageBtn" ><a href="checkoutpage.html" onclick="addrow()"> Checkout Page</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="checkoutpage.html"  >Next Page</a></p>
+<p id = "homepageBtn" ><a href="homepage.html"> Home Page</a> &nbsp; &nbsp; &nbsp; &nbsp; <a  id = "previousPageBtn" href="page2.html"> Previous Page</a> </p>
+
+<br><br>
+
+
+</body>
+<script type="text/javascript" src = "checkoutpage.js"></script>
+</html>
