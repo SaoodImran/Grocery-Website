@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+
+<head>
+	<title>Homepage</title>
+	<div class="hpheader">
+		<h1 class="title">Local Online Grocer</h1>
+		<h2 class="subtitle">Welcome to the online marketplace! Shopping for groceries has never been so easy!</h2>
+	</div>
+</head>
+
+<body>
+
+	<div class="pageselection">
+		<div class="pages">
+			<a href="fruits.html" > Fruits</a>
+		</div>
+		<div class="pages">
+			<a href="meats.html" > Meats</a>
+		</div>
+		<div class="pages">
+			<a href="dairy.html" > Dairy</a>
+		</div>
+		<div class="pages">
+			<a href="checkoutpage.php" >Checkout Page</a>
+		</div>
+	</div>
+
+	<br><br><br>
+	<h1 class="specialANN">Located below are some of the daily specials!</h1>
+	<br><br><br>
+
+	<div class="imgContainer">
+		<img src="./images/apple.png" alt="Product Image" class="hpimage">
+		<div class="overlay">
+			<div class="text">
+				<form action="itemsbought.php" method="POST">
+					<div class="price">Price: 3.50/100g</div>
+					<input type="hidden" name="item1" value = "Apple"> <input type="hidden" name="price1" value = "3.50">
+					<div> Quantity: <input type="number" value="1" name = "q"> <input type="hidden" name="url" value="homepage.html"></div>
+					<input type="submit" name="add to cart" value="Add To Cart!">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="imgContainer">
+		<img src="./images/orange.png" alt="Product Image" class="hpimage">
+		<div class="overlay">
+			<div class="text">
+				<form action="itemsbought.php" method="POST">
+					<div class="price">Price: 3.50/100g</div>
+					<input type="hidden" name="item1" value = "Oranges"> <input type="hidden" name="price1" value = "3.50">
+					<div> Quantity: <input type="number" value="1" name = "q"><input type="hidden" name="url" value="homepage.html"> </div>
+					<input type="submit" name="add to cart" value="Add To Cart!">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="imgContainer">
+		<img src="./images/pear.png" alt="Product Image" class="hpimage">
+		<div class="overlay">
+			<div class="text">
+				<form action="itemsbought.php" method="POST">
+					<div class="price">Price: 3.50/100g</div>
+					<input type="hidden" name="item1" value = "Pears"> <input type="hidden" name="price1" value = "3.50">
+					<div> Quantity: <input  type="number" value="1" name = "q"><input type="hidden" name="url" value="homepage.html"> </div>
+					<input type="submit" name="add to cart" value="Add To Cart!">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="imgContainer">
+		<img src="./images/chicken.png" alt="Product Image" class="hpimage">
+		<div class="overlay">
+			<div class="text">
+				<form action="itemsbought.php" method="POST">
+					<div class="price">Price: $6.50/lb</div>
+					<input type="hidden" name="item1" value = "Chicken"> <input type="hidden" name="price1" value = "6.50">
+					<div> Quantity: <input type="number"  value="1"name = "q"> <input type="hidden" name="url" value="homepage.html"></div>
+					<input type="submit" name="add to cart" value="Add To Cart!">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="imgContainer">
+		<img src="./images/coffeecreamer.png" alt="Product Image" class="hpimage">
+		<div class="overlay">
+			<div class="text">
+				<form action="itemsbought.php" method="POST">
+					<div class="price">Price: $3.50</div>
+					<input type="hidden" name="item1" value = "Coffee Creamer"> <input type="hidden" name="price1" value = "3.50">
+					<div> Quantity: <input type="number" value="1" name = "q"> <input type="hidden" name="url" value="homepage.html"></div>
+					<input type="submit" name="add to cart" value="Add To Cart!">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="imgContainer">
+		<img src="./images/yogurt3.png" alt="Product Image" class="hpimage">
+		<div class="overlay">
+			<div class="text">
+				<form action="itemsbought.php" method="POST">
+					<div class="price">Price: $3.50</div>
+					<input type="hidden" name="item1" value = "Yogurt"> <input type="hidden" name="price1" value = "3.50">
+					<div> Quantity: <input type="number" value="1" name = "q"><input type="hidden" name="url" value="homepage.html"> </div>
+					<input type="submit" name="add to cart" value="Add To Cart!">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h4>Contact us at grocerydelivery@gcservices.ca</h4>
+		<h4>Dial: 905-754-1241</h4>
+		<h4>Oshawa, ON, L15 4K9</h4>
+	</div>
+
+</body>
+</html>
